@@ -1,0 +1,89 @@
+.runHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    width: 100%;
+    top: 0rem;
+    position: fixed;
+    height: 8vh;
+    z-index: 1;
+  }
+  
+  .runHeaderDetails {
+    font-size:1.25rem;    
+  }
+    
+  .runLogoImage {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    height: 3rem;
+    width: 12rem;
+  }
+
+  .smallProfilePhotoRounded {
+    display: inline-block;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .signInContainer {
+    text-align: end;
+    min-width: 10rem;
+  }
+
+  .signInButton {
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14pt;
+    width: 6rem;
+    overflow:hidden;
+  }
+
+  .signInButton:hover {
+    text-decoration: underline;
+  }
+
+  .signInModalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    z-index: 1;
+  }
+  
+  .signInModal {
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    z-index: 2;
+    position: fixed;
+    top: 5rem;
+    /* right: 1rem; */
+    float: right;
+    margin-right: 0rem;
+  }
+  
+  /* for tablet device, min width is about 1310px*/
+  @media (min-width: 1315px) {
+    .runHeaderDetails {
+      font-size:1.5rem;    
+    }
+  }

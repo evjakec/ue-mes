@@ -1,0 +1,41 @@
+.header {
+    /* padding: 2rem 10%; */
+    
+    margin: 0rem 0rem 1rem 0rem;
+    padding: .5rem;
+    background-color: var(--color-gray-100);
+    color:black;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navBody {
+    text-align: center;
+    width: 100%;
+  }
+
+  .list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 16pt;
+  }
+  
+  .list a {
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+  }
+  
+  .list a:hover,
+  .list a.active {
+    color: black;
+    background-color: var(--color-gray-300);
+  }

@@ -1,0 +1,90 @@
+.orderItemsContainer {
+    height: 45rem;
+    width: 80rem;
+    padding: 1rem;
+}
+
+.orderItemsListHeader {
+    display: grid;
+    grid-template-columns: 9rem 7rem 8rem 20rem 11rem 11rem 6rem ;
+    grid-gap: 0.5rem;
+    align-items: start;
+    color: black;
+    font: inherit;
+    font-weight: bold;
+    padding: .5rem;
+    margin: 0.5rem 0rem 0.5rem 0.5rem; 
+}
+
+.orderItemsList {
+    height: 36rem;
+    overflow: auto;
+    padding: .5rem;
+    border-radius:.4rem;
+    border: 1px solid black;    
+}
+
+.orderItem {
+    display: grid;
+    grid-template-columns: 9rem 7rem 8rem 20rem 11rem 11rem 6rem ;
+    grid-gap: 0.5rem;
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:.4rem;
+    border: 1px solid black;
+    padding: .5rem;
+    margin: 0.4rem 0rem; 
+    align-items: center;
+}
+
+.resumeButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.25rem;
+    color: #1c2f50;
+    border: 2px solid #1c2f50;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: var(--color-gray-100);
+    float: right;
+  }
+
+.startButton {
+    display: flex;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.25rem 1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: var(--color-orange-70);
+    color: black;
+  }
+  
+  .startButton:hover {
+    background-color: var(--color-orange-100);
+  }
+
+  .startButton div {
+    min-width: 3rem;
+  }
+
+  .warningContainer {
+    
+    padding: 0rem 0.5rem;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    background-color: var(--color-yellow-10);
+    border: 1px solid;
+    border-color:  var(--color-yellow-100);
+    border-radius: 10px;
+    color:black;
+  }
+  
+  .warningContainer li {list-style: inside;}

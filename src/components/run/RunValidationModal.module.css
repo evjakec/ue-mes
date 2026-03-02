@@ -1,0 +1,41 @@
+.workElementValidationModal {
+    display: inline-block;
+    padding: 1rem 3rem 3rem 1rem;
+    width: 50rem;
+    height: 30rem;
+  }
+
+  
+
+  .errorsContainer {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+    text-align: left;
+    display: grid;
+    width: 95%;
+    background-color: var(--color-pink-10);
+    border: 1px solid;
+    border-color:  var(--color-pink-100);
+    border-radius: 10px;
+    color:black;
+    grid-column: 2 / 5;
+  }
+
+  .errorsContainer li {list-style: inside;}
+
+  
+.warningsContainer {
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 1rem;
+  text-align: left;
+  display: grid;
+  width: 95%;
+  background-color: var(--color-yellow-10);
+  border: 1px solid;
+  border-color:  var(--color-yellow-100);
+  border-radius: 10px;
+  color:black;
+  grid-column: 2 / 5;
+}
+
+.warningsContainer li {list-style: inside;}

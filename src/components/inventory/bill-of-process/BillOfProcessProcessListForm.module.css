@@ -1,0 +1,130 @@
+.form {
+    background-color: white;
+    padding: 1rem;
+    height: 80vh;
+    width: 80vw;
+  }
+
+.formLayout {
+  display: grid;
+  width: 95%;
+  grid-template-columns: 48% auto 48%;
+  grid-template-rows: 3% 3% auto 10%;
+  grid-gap: 10px;
+  justify-items: start;
+  align-items: center;
+}
+
+.headerDiv
+{
+  grid-column: 1/4;
+}
+
+.bopProcessListContainerOuter
+{
+  grid-column: 1/2;
+  width: 100%;
+  height: 100%;
+  max-height: 60vh;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: .25rem;   
+}
+
+.bopProcessListContainer
+{
+    height: 95%;
+    overflow: auto;
+    width: 100%;
+}
+
+.fullProcessListContainerOuter
+{
+  grid-column: 3/4;
+  height: 100%;
+  max-height: 60vh;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: .25rem;   
+}
+
+.fullProcessListContainer
+{
+  height: 95%;
+  overflow: auto;
+  width: 100%;
+}
+  
+  .actionsLayout {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .submitButton {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-orange-70);
+    color: black;
+  }
+  
+  .submitButton:hover {
+    background-color: var(--color-orange-100);
+  }
+  
+  .cancelButton {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-gray-100);
+    color: black;
+  }
+  
+  .cancelButton:hover {
+    background-color: var(--color-gray-500);
+  }
+
+  .middleColumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+.divButton {
+    color: black;
+    background-size: auto 75%;
+    border-radius:6px;
+    border: thin solid var(--color-gray-300) ;
+    box-shadow: 2px 2px 1px var(--color-gray-300);
+    padding: 5px 10px;
+    margin: 5px;
+    height: 3rem;
+  }
+
+.divButton:hover {
+    background-color:var(--color-gray-300);
+  }
+
+.divButtonDisabled {
+  border: thin solid var(--color-gray-100) ;
+  box-shadow: 2px 2px 1px var(--color-gray-100);
+}
+
+.divButtonDisabled:hover {
+  background-color:white;
+}
+
+.confirmationModal {
+  display: inline-block;
+  padding: 1rem 3rem 3rem 1rem;
+  width: 30rem;
+  height: 10rem;
+}

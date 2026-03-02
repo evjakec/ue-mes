@@ -1,0 +1,106 @@
+  .setupHeader {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-gray-500);
+    color: white;
+    width: 100%;
+    height: 8vh;
+    top: 0rem;
+    z-index: 1;
+  }
+
+  .setupHeader > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .navBody {
+    text-align: center;
+    /* width: 100%; */
+  }
+  
+  .setupLogoImage {
+    display: inline-block;
+    height: 4rem;
+    width: 18rem;
+    margin-left: 1rem;
+  }
+
+  .list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .list a:hover,
+  .list a.active {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .signInContainer{
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+  }
+
+  .smallProfilePhotoRounded {
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--color-gray-500);
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .signInButton {
+    height: 1.5rem;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0.75rem;
+    background-color: var(--color-gray-500);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+
+  .signInButton:hover {
+    text-decoration: underline;
+  }
+
+  .signInModalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    z-index: 1;
+  }
+  
+  .signInModal {
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    z-index: 2;
+    position: fixed;
+    top: 8vh;
+    /* right: 1rem; */
+    float: right;
+    margin-right: 0rem;
+  }

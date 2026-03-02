@@ -1,0 +1,122 @@
+/* .workElementSetupConsumption
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+}
+
+.workElementSetupConsumptionAttribute
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 5px 10px 5px 10px;
+    margin: .25rem; 
+}
+
+.workElementSetupConsumptionLabel
+{
+    display:inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    width:10%;
+    height: 100%;
+    margin: .2rem 0rem;
+}
+
+.workElementSetupConsumptionValue
+{
+    display:inline-block;
+    width:90%;
+    margin: .2rem 0rem;
+}
+
+.workElementSetupConsumptionValue select
+{
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.workElementSetupConsumption
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.workElementSetupConsumptionTextValue {
+    width: 100%;
+}
+
+.workElementSetupConsumptionAttribute
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+}
+.workElementSetupConsumptionLabel
+{
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.workElementSetupConsumptionNote {
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+}
+
+.workElementSetupConsumption select
+{
+    background-color: white;
+    border: 1px solid black;
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.25rem; 
+  color: #1c2f50;
+  border: 2px solid #1c2f50;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: none;
+  background-color: white;
+}
+
+.actionButton:hover {
+  background-color: var(--color-gray-100);
+}

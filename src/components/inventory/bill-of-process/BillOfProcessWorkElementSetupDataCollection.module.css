@@ -1,0 +1,65 @@
+.workElementSetupDataCollection
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.workElementSetupDataCollectionAttribute
+{
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin: .25rem; 
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+}
+.workElementSetupDataCollectionLabel
+{
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.workElementSetupDataCollectionValue
+{
+    width:100%;
+}
+
+.workElementSetupDataCollectionValue select
+{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.25rem; 
+  color: #1c2f50;
+  border: 2px solid #1c2f50;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: none;
+  background-color: white;
+}
+
+.actionButton:hover {
+  background-color: var(--color-gray-100);
+}

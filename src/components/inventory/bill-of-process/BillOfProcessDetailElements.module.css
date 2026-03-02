@@ -1,0 +1,40 @@
+.processListWorkElementLayout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.5rem;
+  height: 50vh;
+  width: 100%;
+}
+
+.processList {
+    grid-column: 1/2;
+    padding: 0rem;
+    width: 99%;
+    height: 100%;
+  }
+
+.workElementList {
+    grid-column: 2/3;
+    padding: 0rem;
+    width: 99%;
+    height: 100%;
+  }
+
+.bopDetailProcessWorkElementListContainerOuter
+{
+    height: 48vh;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 100%;
+    padding: .1rem;
+
+}
+
+.bopDetailProcessWorkElementListContainer
+{
+    height: 90%;
+    overflow: auto;
+    width: 100%;
+    justify-items: start;
+}
+

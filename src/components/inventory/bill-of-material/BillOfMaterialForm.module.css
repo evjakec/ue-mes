@@ -1,0 +1,133 @@
+.form {
+    background-color: white;
+    padding: 1rem;
+  }
+
+  .formLayout {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 15% 38% 2% 45%;
+    grid-gap: 1rem;
+    justify-items: start;
+  }
+    
+  .form label {
+    display: grid;
+    color: black;
+    font-weight: bold;
+    grid-column: 1/2;
+  }
+  
+  .form input {
+    display: grid;
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--color-gray-100);
+    color: black;
+    grid-column: 2 / 5;
+  }
+  
+  .form input[name="partId"] {
+    width: 10%;
+  }
+  
+  .form input[name="effectiveStartDate"] {
+    grid-column: 2/3;
+  }
+  
+  .form input[name="effectiveEndDate"] {
+    grid-column: 4/5;
+  }
+  
+  .form select {
+    background-color: var(--color-gray-100);
+    color: black;
+    font: inherit;
+    background-size: auto 75%;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 30px 10px 10px;
+  }
+  
+  .form div label {
+    text-align: right;
+  }
+  
+  .form span {
+      text-align: center;
+      vertical-align: middle;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    grid-column: 1/5;
+    margin-top: 0rem;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-orange-70);
+    color: black;
+  }
+  
+  .actions button:hover {
+    background-color: var(--color-orange-100);
+  }
+  
+  .actions a {
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--color-gray-400);
+  }
+  
+  .actions a:hover {
+    color: var(--color-gray-900);
+  }
+  
+  div.settings {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+  }
+  div.settings label {
+    text-align: right;
+  }
+  div.settings label:after {
+    content: ":";
+  }
+  
+  .bomFormDate {
+      font: inherit;
+      padding: 0.1rem;
+      margin: .2rem 0rem;
+      border-radius: 6px;
+      border: none;
+      background-color: white;
+      color: black;
+    }
+  
+  .errorMessage {
+      margin: 0%;
+      padding: 1rem;
+      display: grid;
+      grid-column: 1 / 5;
+      width: 100%;
+      background-color: var(--color-pink-10);
+      border: 1px solid;
+      border-color:  var(--color-pink-100);
+      border-radius: 10px;
+      color:black;
+    }
+  
+    .errorMessage li {list-style: inside;}

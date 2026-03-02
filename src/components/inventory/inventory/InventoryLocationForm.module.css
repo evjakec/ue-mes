@@ -1,0 +1,206 @@
+.form {
+    background-color: white;
+    display: inline-block;
+    padding: 1rem;
+    height: 80vh;
+    width: 80vw;
+  }
+  
+  .form label {
+    font-weight: bold;
+  }
+  
+  .form input {
+    width: 20rem;
+    font: inherit;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--color-gray-100);
+    color: black;
+  }
+  
+  .form select {
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-size: auto 75%;
+    border-radius:6px;
+    border:none;
+    padding: 10px 30px 10px 10px;
+  }
+  
+  .inventoryLocationFormContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 60vh 6vh 8vh;
+    grid-template-columns: 100%;
+    width: 100%;
+    min-width: 70vw;
+  }
+
+.inventoryLocationListContainer {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  grid-row: 1/2;
+  width: 100%;
+  padding: .25rem;
+  overflow: auto;
+ }
+
+.inventoryLocationListHeader {
+  display: grid;
+  grid-template-columns: 8vw 27vw 18vw 20vw;
+  grid-gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  color: black;
+  font: inherit;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+}
+
+.inventoryLocationAddContainerOuter
+{
+  border: 1px solid black;
+  border-radius: 6px;
+  flex: 0 1 60vh;
+  padding: .25rem;   
+  overflow: auto;
+  min-height: 0;
+}
+
+.inventoryLocationContainerItem
+{
+    display: grid;
+    grid-template-columns: 6.5vw 27vw 22vw 18vw;
+    grid-gap: 0.5rem;
+    justify-content: start;
+    align-items: center;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--color-gray-100);
+    padding: 0.25rem;
+    margin: 0.25rem 0rem;
+}
+
+.inventoryLocationContainerItem input
+{
+    width: 20rem;
+    font: inherit;
+    padding: 0.25rem;
+    margin: 0.25rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.inventoryLocationContainerItem select
+{
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.4rem;
+  margin: 0.25rem 0.5rem;
+}
+
+.inventoryLocationAddContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+
+.confirmationModal {
+  display: inline-block;
+  padding: 1rem 3rem 3rem 1rem;
+  width: 30rem;
+  height: 10rem;
+}
+
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+  }
+
+  .submitButton {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-orange-70);
+    color: black;
+  }
+  
+  .submitButton:hover {
+    background-color: var(--color-orange-100);
+  }
+
+  .cancelButton {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-gray-100);
+    color: black;
+  }
+  
+  .cancelButton:hover {
+    background-color: var(--color-gray-500);
+  } 
+
+  .actions a {
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--color-gray-400);
+  }
+  
+  .actions a:hover {
+    color: var(--color-gray-900);
+  }
+  
+  .addRemoveButton {
+    display: inline-flex;
+    /* align-items: center; */
+    gap: 0.25rem;
+    padding: 0.25rem 0.25rem;     
+    color: #1c2f50;
+    border: 2px solid #1c2f50;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .addRemoveButton:hover {
+    background-color: var(--color-gray-100);
+  }
+
+.errorMessage {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+    text-align: left;
+    display: inline-block;
+    width: 58rem;
+    background-color: var(--color-pink-10);
+    border: 1px solid;
+    border-color:  var(--color-pink-100);
+    border-radius: 10px;
+    color:black;
+  }
+
+  .errorMessage li {list-style: inside;}

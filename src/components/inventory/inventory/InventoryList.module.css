@@ -1,0 +1,15 @@
+.sortIcon {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    color:white;
+}
+
+.inventoryItemAttributesDiv br {
+    display: none;
+}
+
+.inventoryItemAttributesDiv:hover br {
+    display: inline-block;
+}

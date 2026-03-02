@@ -1,0 +1,31 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0rem 0.25rem;
+    color: #1c2f50;
+    border: 1px solid #1c2f50;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .button:hover {
+    background-color: var(--color-gray-100);
+  }
+
+  .disabledButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0rem 0.25rem;
+    color: #1c2f50;
+    border: 1px solid #1c2f50;
+    border-radius: 4px;
+    pointer-events: none;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--color-gray-100);
+  }

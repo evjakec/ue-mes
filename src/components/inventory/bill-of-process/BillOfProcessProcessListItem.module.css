@@ -1,0 +1,18 @@
+.divBox {
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 0.25rem;
+    margin: 0.25rem 0rem 0.25rem 0.25rem;
+  }
+
+.divBox:hover {
+    background-color:var(--color-gray-300);
+  }
+
+.activeProcess
+{
+  background-color:var(--color-gray-300);
+}

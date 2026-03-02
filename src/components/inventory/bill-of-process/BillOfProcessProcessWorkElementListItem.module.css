@@ -1,0 +1,50 @@
+  .workElementListItemContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:var(--color-gray-100);
+    border-radius:6px;
+    border:none;
+    padding: 0.25rem;
+    margin: 0.25rem 0rem 0.25rem 0.25rem;
+    justify-content: flex-start;
+    align-items: center;
+    text-wrap: nowrap;
+    min-width: max-content;
+  }
+
+  .workElementListItemContainerAction {
+    display: inline-flex;
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 0.25rem;
+    vertical-align: middle;
+  }
+
+  .workElementListItemContainer:hover {
+      background-color:var(--color-gray-300);
+    }
+
+  .workElementListItemContainerContent:hover {
+      background-color:var(--color-gray-300);
+    }
+  
+  .activeWorkElement
+  {
+    background-color:var(--color-gray-300);
+  }
+  
+  .actionButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem;
+    color: #1c2f50;
+    border: 2px solid #1c2f50;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: white;
+  }

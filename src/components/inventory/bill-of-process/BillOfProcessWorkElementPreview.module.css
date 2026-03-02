@@ -1,0 +1,80 @@
+.workElementContainerOuter {
+  display: grid;
+  grid-template-columns: 33% 66%;
+  grid-template-rows: 100%;
+  column-gap: 0.5rem;
+  justify-items: start; 
+  margin: 0.5rem 0rem 0rem 0.5rem;
+  height: 96%;
+}
+
+.workElementContainerLeft {
+  grid-column: 1/2;
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+}
+
+.workElementListContainerOuter {
+  border: 1px solid black;
+  border-radius: 6px;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  padding: 0.1rem;
+}
+
+.workElementContainerRight {
+  grid-column: 2/3;
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+}
+
+.workElementContentContainerOuter {
+  height: 100%;
+  width: 99%;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0.1rem;
+  overflow: auto;
+}
+
+.divWorkElementRun {
+  font: inherit;
+  font-weight: bold;
+  border-radius:6px;
+  border:none;
+  padding: 5px 15px 5px 5px;
+  margin: 5px;
+}
+
+.InProgress {
+  background-color:var(--color-yellow-100);
+  color: black;
+}
+
+.Complete {
+  background-color:var(--color-green-100);
+  color: white;
+}
+
+.Failed {
+  background-color:red;
+  color: white;
+}
+
+.Unknown {
+  background-color:var(--color-gray-100);
+  color: black;
+}
+
+.Bypassed {
+  background-color:var(--color-gray-600);
+  color: white;
+}
+
+.Paused {
+  background-color:var(--color-gray-600);
+  color: white;
+}

@@ -1,0 +1,94 @@
+.inventoryDashboardCharts {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.inventoryDashboardChart1 {
+    display: grid;
+    text-align: center;
+    grid-column: 1/2;
+    height: 15rem;
+}
+
+.inventoryDashboardChart2 {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.inventoryDashboardChart3 {
+    display: grid;
+    grid-column: 3/4;
+}
+
+.inventoryDashboardChart4 {
+    display: grid;
+    grid-column: 4/5;
+}
+
+.inventoryListActions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    vertical-align: middle;
+}
+
+.inventoryListActionsLeft {
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem .75rem;
+    margin-right: 1rem;
+    background-color: var(--color-orange-70);
+    color: #2a2630;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: var(--color-orange-100);
+  }
+
+  .disabledButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem .75rem;
+    margin-right: 1rem;
+    background-color: var(--color-orange-70);
+    color: #2a2630;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .actionButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.25rem;
+    color: #1c2f50;
+    border: 2px solid #1c2f50;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: var(--color-gray-100);
+  }
+  
+  .actionButton:hover {
+    background-color: var(--color-gray-300);
+  }

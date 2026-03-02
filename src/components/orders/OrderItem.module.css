@@ -1,0 +1,90 @@
+.orderItemContainer {
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: .5rem;
+    margin: 5px 0px; 
+}
+
+.orderItemLabel {
+    font-weight: bold;
+    margin: .2rem 0rem;
+}
+
+.orderItemValue {
+    margin: .2rem 0rem;
+}
+
+.orderItemHeader {
+    display: grid;
+    grid-template-columns: 18rem 10rem 7rem 10rem 10rem 10rem;
+    grid-gap: 10px;
+    vertical-align: bottom;
+}
+
+.orderItemDetail {
+    display: grid;
+    grid-template-columns: 18rem 10rem 7rem 10rem 10rem 10rem;
+    grid-gap: 10px;
+}
+
+.orderItemFooter {
+    display: grid;
+    grid-template-columns: 18rem 10rem 7rem 10rem 10rem 10rem;
+    grid-gap: 10px;
+    vertical-align: top;
+}
+
+.orderItemPart {
+    display: grid;
+    grid-column: 1/2;
+    /* vertical-align: bottom;  no worky */
+}
+.orderItemQuantity {
+    display: grid;
+    grid-column: 2/3;
+    text-align: center;
+}
+.orderItemHxW {
+    display: block;
+    grid-column: 3/4;
+    text-align: center;
+    text-wrap: nowrap;
+}
+.orderItemIGUType {
+    display: inline-block;
+    grid-column: 4/5;
+    text-align: center;
+}
+.orderItemIGUType img {
+    height: 4rem;
+    width: 4rem;
+}
+.orderItemScribeOrientation {
+    display: block;
+    grid-column: 5/6;
+    text-align: center;
+}
+.orderItemScribeOrientation img {
+    height: 4rem;
+    width: 4rem;
+}
+.orderItemIGUStep {
+    display: block;
+    grid-column: 6/7;
+    text-align: center;
+}
+.orderItemIGUStep img {
+    height: 4rem;
+    width: 7rem;
+}
+.box {
+    border: 3px solid var(--color-blue-100);
+    background: var(--color-blue-10); 
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+    display: inline-block;
+}

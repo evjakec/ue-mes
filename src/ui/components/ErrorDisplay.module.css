@@ -1,0 +1,22 @@
+.errorBlock {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    display: block;
+    justify-content: space-between;
+    background-color: rgb(252, 158, 158);
+    border: 1px solid;
+    border-color: red;
+    border-radius: 10px;
+    color:black;
+}
+
+.errorBlock a {
+    color: black;
+  }
+  
+  .errorBlock a:hover
+  {
+    color: black;
+    text-decoration: underline;
+  }

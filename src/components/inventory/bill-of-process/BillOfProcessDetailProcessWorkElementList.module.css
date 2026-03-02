@@ -1,0 +1,6 @@
+.bopDetailProcessWorkElementListContainer
+{    
+    height: calc(100% - 2rem); /* subtract out the <button> on top */
+    overflow: auto;
+    width: 100%;
+}

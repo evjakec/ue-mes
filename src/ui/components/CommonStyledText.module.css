@@ -1,0 +1,29 @@
+.styledText {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0rem 0.25rem;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .rawMaterial {
+    color: var(--color-gray-800);
+    border-color: var(--color-gray-800);
+    background-color: var(--color-gray-200);
+  }
+  
+  .subAssembly {
+      color: var(--color-blue-100);
+      border-color: var(--color-blue-100);
+      background-color: var(--color-blue-10);
+  }
+  
+  .finishedGood {
+      color: var(--color-green-100);
+      border-color: var(--color-green-100);
+      background-color: var(--color-green-10);
+  }
+

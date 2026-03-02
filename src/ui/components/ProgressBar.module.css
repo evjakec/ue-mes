@@ -1,0 +1,23 @@
+.progressContainer {
+    height: 1rem;
+    width: 50%;
+    background-color: var(--color-gray-300);
+    border: 1px solid black;
+    border-radius: 4rem;
+    display: inline-block;
+}
+
+.progressFiller {
+    height: 100%;
+    background-color: var(--color-green-100);
+    border-radius: 4rem;
+}
+
+.progressInnerText {
+    font-weight: bold;
+    font-size: smaller;
+    color: black;
+    width: 40%;
+    display: inline-block;    
+    margin-left: 0.5rem;
+}

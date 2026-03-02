@@ -1,0 +1,70 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .modalRoute {
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    overflow: auto;
+    position: absolute;
+    z-index: 2;
+    top:8vh;
+    max-height: 95vh;
+  }
+  
+  .modalClient {
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    overflow: auto;
+    z-index: 2;
+    position: absolute;
+    top:8vh;
+  }
+
+  .actionsDiv {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+
+  .actionButtonOk {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-orange-70);
+    color: black;
+    margin: 1rem;
+  }
+  
+  .actionButtonOk:hover {
+    background-color: var(--color-orange-100);
+  }
+
+  .actionButtonCancel {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-gray-100);
+    color: black;
+    margin: 1rem;
+  }
+  
+  .actionButtonCancel:hover {
+    background-color: var(--color-gray-500);
+  }
+  

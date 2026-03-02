@@ -1,0 +1,27 @@
+.workElementRunImageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.workElementRunText {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.workElementRunImageRun {
+    text-align: center;
+    width: 55vh;
+    height: 23vh;
+}
+
+.workElementRunImagePreview {
+    text-align: center;
+    max-width: 54vh;
+    height: 28vh;
+}
+
+.workElementRunImagePreview img {
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}

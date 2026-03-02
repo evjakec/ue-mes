@@ -1,0 +1,55 @@
+.workElementRunDataCollection {
+    width: 100%;
+}
+
+.workElementRunDataCollectionText {
+    padding: 1rem;
+    font-weight: bold;
+
+    /* font-size: smaller; */
+}
+.workElementRunDataCollectionAttribute {
+    background-color:var(--color-gray-100);
+    color: black;
+    font: inherit;
+    border-radius:6px;
+    border:none;
+    padding: 5px 10px 5px 10px;
+    margin: .25rem; 
+}
+
+.workElementRunDataCollectionAttribute input {
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.workElementRunDataCollectionAttribute select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.workElementRunDataCollectionLabel {
+    display:inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    width: 30%;
+    height: 100%;
+    margin: .2rem 0rem;
+}
+
+.workElementRunDataCollectionValue {
+    display:inline-block;
+    vertical-align: top;
+    width: 70%;
+    height: 100%;
+    margin: .2rem 0rem;
+}

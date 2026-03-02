@@ -1,0 +1,29 @@
+.header {
+    padding: 2rem;
+    display: block;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+    top:8vh;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .list a {
+    background-color: var(--color-gray-400);
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .list a:hover,
+  .list a:active,
+  .list a.active {
+    background-color: var(--color-orange-100);
+  }
